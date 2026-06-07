@@ -20,6 +20,7 @@ Download from: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-chal
 ---
 
 ## 📂 Repository Structure
+```bash
 01_EDA_Visualization.ipynb
 02_preprocessing_tfidf.ipynb
 03_Tfidf_model.ipynb
@@ -30,7 +31,7 @@ preprocessing_tfidf.py
 text_preprocessing_gru.py
 requirements.txt
 README.md
-
+```
 ---
 
 ## ⚙️ Workflow
@@ -48,21 +49,21 @@ README.md
 
 ### Models used
 --> TF-IDF + Logistic Regression (Baseline)
-    - Fast and simple
-    - Limited contextual understanding
+- Fast and simple
+- Limited contextual understanding
 
 --> BiLSTM Model
-    - Captures sequential dependencies
-    - Better than traditional ML models
+- Captures sequential dependencies
+- Better than traditional ML models
 
 --> BiGRU (Best Model)
-    - Faster than LSTM
-    - Best balance of speed and accuracy
+- Faster than LSTM
+- Best balance of speed and accuracy
 
 --> BERT Model
-    - Uses pre-trained contextual embeddings
-    - Minimal preprocessing required
-    - Currently under training
+- Uses pre-trained contextual embeddings
+- Minimal preprocessing required
+- Currently under training
 
 ---
 
